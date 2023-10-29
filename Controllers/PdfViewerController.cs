@@ -283,6 +283,7 @@ namespace PdfViewerWebService
 
         //Gets the path of the PDF document
         private string GetDocumentPath(string document)
+
         {
             string documentPath = string.Empty;
             if (!System.IO.File.Exists(document))
